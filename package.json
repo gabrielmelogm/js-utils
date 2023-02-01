@@ -1,0 +1,13 @@
+{
+  "name": "js-utils",
+  "version": "1.0.0",
+  "description": "Funções para auxiliar nas formatações do dia a dia",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": ["javascript", "format", "number-format"],
+  "author": "gabrielmelogm ",
+  "license": "ISC"
+}
