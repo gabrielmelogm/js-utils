@@ -5,4 +5,13 @@ function formatCep(value) {
     .replace(/(\d{5})(\d)/, "$1-$2");
 }
 
-export { formatCep };
+function formatMoney(value) {
+  const format = new Intl.NumberFormat("pt-BR", {
+    style: "currency",
+    currency: "BRL",
+  }).format(value);
+
+  return format;
+}
+
+export { formatCep, formatMoney };

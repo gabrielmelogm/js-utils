@@ -6,9 +6,16 @@ Como usar?
 npm i @gabrielmelo/js-utils
 ```
 
+## Funções
+
+- formatCep(value):
+  Essa função irá formatar uma string ou número em um cep
 ```js
 import { formatCep } from "@gabrielmelo/js-utils"
 ```
 
-- formatCep(value):
-  Essa função irá formatar uma string ou número em um cep
+- formatMoney(value):
+  Essa função irá formatar uma string ou número em formato real brasileiro
+```js
+import { formatMoney } from "@gabrielmelo/js-utils"
+```
