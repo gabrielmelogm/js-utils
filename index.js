@@ -1,17 +1,4 @@
-function formatCep(value) {
-  return String(value)
-    .replace(/\D/g, "")
-    .slice(0, 8)
-    .replace(/(\d{5})(\d)/, "$1-$2");
-}
-
-function formatMoney(value) {
-  const format = new Intl.NumberFormat("pt-BR", {
-    style: "currency",
-    currency: "BRL",
-  }).format(value);
-
-  return format;
-}
+import { formatCep } from "./src/formatCep.js";
+import { formatMoney } from "./src/formatMoney.js";
 
 export { formatCep, formatMoney };
